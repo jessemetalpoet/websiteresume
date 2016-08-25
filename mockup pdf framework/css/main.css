@@ -1,0 +1,43 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:300,400';
+body {background-color: rgb(82, 86, 89);color: #747707;font-family: 'Lato', sans-serif;}
+p {  margin: 5px;}
+a {  color: #747704;}
+.grid {  border: 1px solid #bcbbbb;  background-color: #fff;  padding: 5px;  margin: 0 auto;  max-width: 1200px;  width: 100%;}
+*{ -webkit-box-sizing: border-box;  -moz-box-sizing: border-box;  -ms-box-sizing: border-box;  box-sizing:border-box;}
+.col-4 h3 {  color: #747704;}
+h4 {  font-size: 25px;  font-weight: 100;  margin: 0px;  margin-bottom: 5px;}
+h1{ text-transform: uppercase;  font-weight: lighter;}
+.col-6 h1 {  font-size: 60px;  font-weight: 100;  margin-top: 0px;  margin-bottom: 0px;}
+.col-3 h1 {  padding: 0%;  color: transparent;  margin: 0;  background: url(../images/udacity.png) top center no-repeat;  background-size: contain; background-position: inherit; width: auto;  height: 110px;}
+.row{text-align: center; margin-left: auto; margin-right: auto; width: 100%; display: flex; flex-wrap: wrap;}
+.row h3 { color: #bcbbbb; font-size: 30px;  margin-left: 10px; margin-right: 10px;}
+.appify h3, .sunflower h3, .bokeh h3 { color: #747704; margin-top: 10px; margin-bottom: 10px;}
+.appify,.sunflower,.bokeh { padding: 0px; width: 33.33%; float: none; text-align: center; color: #747704!important;}
+li.appify-image, li.sunflower-image, li.bokeh-image { color: transparent; height: 258px; background-size: 395px!important;}
+li.bokeh-image { background: url(../images/bokeh.png) no-repeat top center;}
+li.sunflower-image {background: url(../images/sunflower.png) no-repeat top center;}
+li.appify-image { background: url(../images/appify.png)top center no-repeat;}
+.row:nth-child(2) {
+    margin-top: 10px;
+    color: transparent;
+    background: url(../images/meta-image.png)top center no-repeat;
+    background-size: 101%;
+    font-size: 42px;
+    height: 410px;}
+.row:first-child { border-bottom: 2px solid #bcbbbb;}
+.col-1{  width: 8.33%;}
+.col-2{  width: 16.66%;}
+.col-3{  text-align: left;  width: 25%;  height: 110px;}
+.col-4{  width: 33.33%;}
+.col-5{  width: 41.66%;}
+.col-6{  text-align: right;  width: 50%;  vertical-align: bottom;}
+.col-7{  width: 58.33%;}
+.col-8{  width: 66.66%;}
+.col-9{  width: 75%;}
+.col-10{  width: 83.33%;}
+.col-11{  width: 91.66%;}
+.col-12{  width: 100%;}
+@media (max-width: 300px) {
+}
+@media (max-width: 500px) {
+}

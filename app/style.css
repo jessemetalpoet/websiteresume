@@ -1,0 +1,38 @@
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1.title {
+    text-transform: uppercase;
+    padding-top: 2%;
+    font-weight: lighter;
+    font-size: 48px;
+    height: 100px;
+    background-color: #33bebe;
+    color: #fff;
+    margin-bottom: 3%;
+    padding-left: 15px;
+}
+.app{
+  display: -webkit-flex;
+  display: flex;
+}
+.image{
+  margin-right: 25px;
+  max-width: 460px;
+}
+.description{
+  font-size: 30px;
+  max-width: 705px;
+  color: #7c8b88;
+}

@@ -1,0 +1,26 @@
+body{
+  background: url(../images/hex-blue.png)repeat top center;
+  background-position-y: 0;
+  width: auto;
+  font-family: 'Abel', sans-serif;
+  color: #23c4ff;
+  text-shadow: 2px 2px rgba(41, 204, 255,0.2);
+  text-align: center;
+  font-size: 45px!important;
+}
+
+p {
+    background-color: #111;
+    width: 525px;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 230px;
+    text-align: center;
+    border: 5px solid #148cc0;
+    border-style: outset;
+    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); */
+}
+.row{
+  width: 100%;
+}
